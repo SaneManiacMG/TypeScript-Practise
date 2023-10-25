@@ -1,4 +1,4 @@
-let fname = "Chandler";
+/*let fname = "Chandler";
 let lname = "Bing";
 
 let obj = {
@@ -6,4 +6,8 @@ let obj = {
 };
 
 console.log("moduleB.js: Loaded!");
-export { fname, lname, obj };
+export { fname, lname, obj };*/
+
+let fname = "Chandler";
+
+export default fname;
