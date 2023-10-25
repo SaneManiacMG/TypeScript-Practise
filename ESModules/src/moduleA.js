@@ -4,8 +4,16 @@ console.log("moduleA.js: Log 2");
 
 obj.name = "Ross";
 console.log(obj.name);
-console.log(`${f} ${l}`);*/
-
+console.log(`${f} ${l}`);
+================================================
 import firstName from "./moduleB.js";
 
 console.log(firstName);
+================================================*/
+
+import { greet, GreetMessage } from "./moduleB.js";
+
+greet("Hello World!");
+
+let gm = new GreetMessage();
+gm.greet();
