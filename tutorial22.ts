@@ -1,4 +1,4 @@
-class Person2 {
+/*class Person2 {
   constructor(name) {
     this.name = name;
     console.log(this.name + " Constructor");
@@ -16,4 +16,4 @@ class Person2 {
 
 let p2 = new Person2("Chandler");
 Person2.staticMethod();
-p2.greetPerson2();
+p2.greetPerson2();*/
